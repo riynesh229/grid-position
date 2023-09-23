@@ -1,0 +1,381 @@
+body{
+    margin: 0px;
+}
+.parent{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    position: fixed;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 100vh;
+    margin: 0px;
+}
+.right{
+    position: absolute;
+    width: 80%;
+    left: 20%;
+}
+.photo{
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    padding: 5px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.photo img{
+    width: 100%;
+}
+.left1{
+    color: whitesmoke;
+    text-align: center;
+    border-left: solid blue 5px;
+    padding: 5px;
+}
+.left2{
+    color: whitesmoke;
+    text-align: center;
+    border-left: yellow solid 5px;
+    padding: 5px;
+}
+.left3{
+    color: whitesmoke;
+    text-align: center;
+    border-left: purple solid 5px;
+    padding: 5px;
+}
+.left4{
+    color: whitesmoke;
+    text-align: center;
+    border-left: rgb(7, 238, 7) solid 5px;
+    padding: 5px;
+}
+.left5{
+    color: whitesmoke;
+    text-align: center;
+    border-left: rgb(240, 14, 153) solid 5px;
+    padding: 5px;
+}
+.left1:hover{
+    background-color: gray;
+}
+.left2:hover{
+    background-color: gray;
+}
+.left3:hover{
+    background-color: gray;
+}
+.left4:hover{
+    background-color: gray;
+}
+.left5:hover{
+    background-color: gray;
+}
+.right1{
+    width: 100%;
+    height: 250px;
+    background-image: url(./1.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    font-weight: 800;
+}
+.right2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right3{
+    font-size: 16px;
+    background-color: blue;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+}
+.box{
+    width: 80%;
+    margin: auto;
+}
+.right4{
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    margin-top: 30px;
+}
+.right6{
+    margin-top: 40px;
+    border-top: solid rgb(202, 202, 11) 3px;
+    padding-top: 5px;
+}
+.color{
+    display: inline;
+    background-color: rgb(202, 202, 11);
+    color: white;
+    padding: 5px;
+}
+.right7{
+    display: grid;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
+    margin-top: 50px;
+}
+.div1,.div2,.div3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img1{
+    width: 100%;
+    height: 300px;
+}
+.img2{
+    width: 100%;
+    height: 300px;
+}
+.img3{
+    width: 100%;
+    height: 300px;
+}
+.name1,.name2,.name3{
+    margin-top: 20px;
+    text-align: center;
+    color: orange;
+}
+.heading1{
+    margin-top: 70px;
+    font-size: 30px;
+    color: orange;
+}
+.content1{
+    margin-top: 30px;
+}
+.div4{
+    margin-top: 70px;
+    border-top: 3px solid blueviolet;
+    padding-top: 10px;
+}
+.heading2{
+    background-color: blueviolet;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+.right10{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
+    justify-content: center;
+    align-items: center;
+}
+.nav2,.nav3{
+    background-color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: aliceblue;
+    padding: 5px;
+}
+.nav1{
+    background-color: blueviolet;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: aliceblue;
+    padding: 5px;
+}
+.right11{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.dark{
+    margin-top: 50px;
+    color: blueviolet;
+}
+.light{
+    margin-top: 30px;
+}
+.head2{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.blue{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.line1{
+    margin-top: 70px;
+    border-top: solid rgba(56, 243, 56, 0.781) 3px;
+    margin-bottom: 5px;
+}
+.head3{
+    display: inline;
+    background-color: rgb(94, 240, 94);
+    color: white;
+    padding: 5px;
+}
+.temp1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.size{
+    width: 100%;
+    height: 250px;
+}
+.nav4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav5{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav6{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.temp2{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.right13{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.load{
+    background-color: rgb(58, 248, 58);
+    padding: 5px;
+    color: aliceblue;
+}
+.right14{
+    margin-top: 50px;
+    border-top: solid rgb(230, 53, 171) 3px;
+    margin-bottom: 5px;
+}
+.contact{
+    background-color: rgb(230, 53, 171);
+    color: aliceblue;
+    display: inline;
+    padding: 5px;
+}
+.auto{
+    margin: 50px;
+}
+.map{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    background-image: url(./11.jpeg);
+    height: 400px;
+}
+.right15{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+.msg{
+    margin-top: 50px;
+}
+.top{
+    margin-top: 30px;
+}
+.send{
+    display: inline;
+    background-color: rgb(224, 49, 137);
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+.grey{
+    width: 20%;
+    margin: auto;
+}
+.grey img{
+    width: 100%;
+    padding: 20px;
+}
+.right16{
+    margin-top: 50px;
+    margin-left: 5px;
+    background-color: rgba(12, 12, 12, 0.801);
+}
+.black{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: grid;
+    align-content: center;
+    padding-left: 50px;
+}
+.content{
+    height: 200px;
+    width: 100%;
+}
+@media(max-width:576px){
+    .right7{
+        display: block;
+    }
+    .right10{
+        display: block;
+    }
+    .right10 div{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .right11{
+        display: block;
+    }
+    .temp1{
+        display: block;
+    }
+    .temp1 div{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .temp2{
+        display: block;
+    }
+    .temp2 div{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .right15{
+        display: block;
+    }
+    .two{
+        display: block;
+    }
+    .map{
+        height: 250px;
+        width: 100%;
+    }
+    .right15 div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .right2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
